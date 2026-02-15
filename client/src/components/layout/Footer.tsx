@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
           
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-white">Jigar's Portfolio</h3>
+            <h3 className="text-2xl font-bold text-white">Taher's Portfolio</h3>
             <p className="text-gray-300 leading-relaxed">
               Thank you for visiting my personal portfolio website. Connect with me over socials. 
               <br /><br />
@@ -30,13 +30,13 @@ export default function Footer() {
           <div className="space-y-4 flex flex-col items-center md:items-start">
             <h3 className="text-2xl font-bold text-white">Contact Info</h3>
             <p className="text-gray-300 hover:text-[#fc8c05] transition-colors flex items-center gap-2">
-              +91 XXX-XXX-XXXX
+              +880 XXX-XXX-XXXX
             </p>
             <p className="text-gray-300 hover:text-[#fc8c05] transition-colors flex items-center gap-2">
-              jigarsable21@gmail.com
+              taherkhan5530@gmail.com
             </p>
             <p className="text-gray-300 hover:text-[#fc8c05] transition-colors flex items-center gap-2">
-              Pune, India-412206
+              Sylhet-3108, Bangladesh
             </p>
             <div className="flex gap-4 mt-4">
               <a href="https://www.linkedin.com/in/jigar-sable" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white text-[#0e2431] flex items-center justify-center hover:text-[#fc8c05] transition-colors">
@@ -56,7 +56,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-6 text-center">
           <h1 className="text-xl font-medium flex items-center justify-center gap-2">
             Designed with <Heart className="w-5 h-5 text-red-500 fill-current animate-pulse" /> by 
-            <a href="https://www.linkedin.com/in/jigar-sable" className="text-[#fc8c05] hover:underline">jigar sable</a>
+            <a href="#" className="text-[#fc8c05] hover:underline">taher</a>
           </h1>
         </div>
       </div>

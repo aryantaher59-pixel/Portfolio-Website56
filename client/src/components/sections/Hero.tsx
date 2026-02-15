@@ -16,7 +16,7 @@ export default function Hero() {
         >
           <h2 className="text-5xl md:text-6xl font-bold text-[#0e2431]">
             Hi There,<br />
-            I'm Jigar <span className="text-[#7303a7]">Sable</span>
+            I'm Taher
           </h2>
           <p className="text-2xl text-[#0e2431] font-semibold">
             I am into <span className="text-[#7303a7]">Web Development</span>
@@ -61,9 +61,9 @@ export default function Hero() {
           className="flex-1 flex justify-center z-10"
         >
           <img 
-            src="/assets/images/hero.png" 
+            src="/assets/images/taher.jpg" 
             alt="Hero" 
-            className="w-full max-w-lg object-contain drop-shadow-2xl animate-float"
+            className="w-full max-w-lg object-contain drop-shadow-2xl animate-float rounded-2xl"
           />
         </motion.div>
       </div>

@@ -48,7 +48,7 @@ export default function Navbar() {
           onClick={(e) => { e.preventDefault(); handleNavClick('#home'); }}
         >
           <Code2 className="w-8 h-8" />
-          Jigar
+          Taher
         </a>
 
         {/* Desktop Menu */}
