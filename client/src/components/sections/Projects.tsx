@@ -27,12 +27,14 @@ export default function Projects() {
                 <img 
                   src={`/assets/images/projects/${project.image}.png`}
                   onError={(e) => {
-                    // Fallback to PNG if JPG not found, or vice-versa, or generic
+                    // Fallback mechanism
                     const target = e.target as HTMLImageElement;
-                    if (target.src.endsWith('.png')) {
-                        target.src = `/assets/images/projects/${project.image}.PNG`;
-                    } else if (target.src.endsWith('.PNG')) {
-                        target.src = `/assets/images/projects/${project.image}.jpg`;
+                    if (!target.src.includes('password-gen')) {
+                        if (target.src.endsWith('.png')) {
+                            target.src = `/assets/images/projects/${project.image}.PNG`;
+                        } else if (target.src.endsWith('.PNG')) {
+                            target.src = `/assets/images/projects/${project.image}.jpg`;
+                        }
                     }
                   }}
                   alt={project.name}
