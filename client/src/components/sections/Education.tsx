@@ -24,15 +24,15 @@ export default function Education() {
           >
             <div className="h-64 overflow-hidden">
               <img 
-                src="/assets/images/educat/college.jpg" 
+                src="/assets/images/ibit_college.jpg" 
                 alt="College" 
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-[#0e2431]">Bachelor of Engineering in Information Technology</h3>
-              <p className="text-gray-600 mt-2">Zeal College of engineering and research | SPPU</p>
-              <h4 className="text-[#7303a7] font-bold mt-4">2020-2024 | Pursuing</h4>
+              <h3 className="text-xl font-bold text-[#0e2431]">Computer Science and Engineering</h3>
+              <p className="text-gray-600 mt-2">Islami Bank Institute Of Technology</p>
+              <h4 className="text-[#7303a7] font-bold mt-4">2023-2028 | Pursuing</h4>
             </div>
           </motion.div>
 
