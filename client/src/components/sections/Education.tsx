@@ -14,10 +14,10 @@ export default function Education() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-1 gap-8 max-w-2xl mx-auto">
           <motion.div 
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
             className="bg-[#f7f7f7] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all"
@@ -33,27 +33,6 @@ export default function Education() {
               <h3 className="text-xl font-bold text-[#0e2431]">Computer Science and Engineering</h3>
               <p className="text-gray-600 mt-2">Islami Bank Institute Of Technology</p>
               <h4 className="text-[#7303a7] font-bold mt-4">2023-2028 | Pursuing</h4>
-            </div>
-          </motion.div>
-
-          <motion.div 
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="bg-[#f7f7f7] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all"
-          >
-            <div className="h-64 overflow-hidden">
-              <img 
-                src="/assets/images/educat/school.jpg" 
-                alt="School" 
-                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="text-xl font-bold text-[#0e2431]">HSC Science | Informatic Practices</h3>
-              <p className="text-gray-600 mt-2">Shri L. G. Haria Multipurpose School | CBSE</p>
-              <h4 className="text-[#7303a7] font-bold mt-4">2018-2020 | Completed</h4>
             </div>
           </motion.div>
         </div>
