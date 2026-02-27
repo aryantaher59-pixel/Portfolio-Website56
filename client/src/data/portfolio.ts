@@ -18,6 +18,16 @@ export interface Skill {
 
 export const projects: Project[] = [
   {
+    "name": "JavaScript Issue Tracker",
+    "desc": "A functional issue tracking system to manage and monitor software bugs and tasks.",
+    "image": "issue-tracker",
+    "category": "basicweb",
+    "links": {
+      "view": "https://issuetracker-cx.netlify.app",
+      "code": "#"
+    }
+  },
+  {
     "name": "Commerza",
     "desc": "A premium e-commerce experience for luxury timepieces and statement pieces.",
     "image": "commerza",
