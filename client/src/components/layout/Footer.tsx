@@ -38,17 +38,6 @@ export default function Footer() {
             <p className="text-gray-300 hover:text-[#fc8c05] transition-colors flex items-center gap-2">
               Sylhet-3108, Bangladesh
             </p>
-            <div className="flex gap-4 mt-4">
-              <a href="https://www.linkedin.com/in/jigar-sable" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white text-[#0e2431] flex items-center justify-center hover:text-[#fc8c05] transition-colors">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-              <a href="https://github.com/jigar-sable" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white text-[#0e2431] flex items-center justify-center hover:text-[#fc8c05] transition-colors">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="mailto:jigarsable21@gmail.com" className="w-10 h-10 rounded-full bg-white text-[#0e2431] flex items-center justify-center hover:text-[#fc8c05] transition-colors">
-                <i className="fas fa-envelope"></i>
-              </a>
-            </div>
           </div>
 
         </div>
