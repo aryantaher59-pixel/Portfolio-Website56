@@ -60,14 +60,6 @@ export default function Projects() {
             </motion.div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <Button 
-            className="bg-[#fc8c05] hover:bg-[#e07b00] text-white px-8 py-6 rounded-full text-lg shadow-lg hover:shadow-xl transition-all"
-          >
-            <a href="/projects">View All Projects</a>
-          </Button>
-        </div>
       </div>
     </section>
   );
