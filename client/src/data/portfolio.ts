@@ -18,6 +18,16 @@ export interface Skill {
 
 export const projects: Project[] = [
   {
+    "name": "Commerza",
+    "desc": "A premium e-commerce experience for luxury timepieces and statement pieces.",
+    "image": "commerza",
+    "category": "basicweb",
+    "links": {
+      "view": "https://commerza-pi.vercel.app",
+      "code": "#"
+    }
+  },
+  {
     "name": "Password Generator",
     "desc": "A secure and customizable password generator tool built with modern web technologies.",
     "image": "password-gen",
